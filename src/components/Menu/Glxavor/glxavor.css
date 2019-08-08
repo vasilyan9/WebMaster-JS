@@ -1,0 +1,48 @@
+.Glxavor_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 16px 0 3% 0;
+}
+
+.Glxavor_section > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #f0f0f0;
+    margin-top: 10px;
+}
+
+.Glxavor_section  hr {
+    width: 60px;
+    color: #C2C2C2;
+}
+
+.Glxavor_text {
+    display: flex;
+    justify-content: center;
+    background: #f8f8f8; 
+    padding: 3% 0;   
+}
+
+.Glxavor_text h2 {
+    color: #F7951E;
+}
+
+.Glxavor_text span {
+    color: #666666;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 85%;
+}
+
+.main img {
+    width: 100%;
+}

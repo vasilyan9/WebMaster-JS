@@ -1,0 +1,28 @@
+.MerMasinSection h2 {
+    color: #F7951E;
+    font-size: 2.3em;
+}
+
+.MerMasinSection {
+    display: flex;
+    justify-content: center;
+    background-color: #F0F0F0;
+}
+
+.MerMasinMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+}
+
+.MerMasinMain > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #d9d9d9;
+    padding: 16px;
+    margin-bottom: 3%;
+}

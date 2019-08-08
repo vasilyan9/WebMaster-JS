@@ -1,0 +1,84 @@
+.GniHashvarkMenuSection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font: sans-serif;
+    position: sticky;
+    top: 3px 
+}
+
+.GniHashvarkMenuSection > a {
+    font-weight: 100;
+    text-transform: inherit;
+}
+
+.GniHashvarkMenuItem {
+    height: 31px;
+    width: 190px;
+    border: 2px solid #F9A12E; 
+    color: #F9A12E;
+    padding: 8px;
+    font-size: 0.7em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.GniHashvarkMenuItem:hover {
+    color: #ffffff;
+    background-color: #F9A12E;
+}
+
+.GniHashvarkMenuItemActive > div {
+    color: #ffffff;
+    background-color: #F9A12E;
+}
+
+.GniHashvarkMenuItemActive a {
+    font-weight: normal;
+}
+
+.GniHashvarkMenuItemActive > div div:first-of-type {
+    background-color: #f0f0f0;
+    padding: 2px;
+}
+
+
+.GniHashvarkMenuItem > div:first-of-type {
+    padding: 2px;
+    border: 2px #f0f0f0 solid;
+    border-radius: 10px
+}
+
+.GniHashvarkMenuItem:hover div:first-of-type {
+    background-color: #f0f0f0;
+    padding: 2px;
+}
+
+.GniHashvarkMenuItem_1 {
+    width: 130px;
+    border: 2px solid #000000; 
+    color: #000;
+    background-color: #F9A12E;
+}
+
+.GniHashvarkMenuItem_1:last-of-type:hover  {
+    color: #000;
+}
+
+.GniHashvarkMenuItem_1:last-of-type input {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: 0;
+    width: 100%;
+    color: #000;
+    text-align: center;
+}  
+
+.GniHashvarkMenuItem_1:last-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}  

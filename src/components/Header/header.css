@@ -1,0 +1,14 @@
+.Header {
+	background: #29292C;
+	border-bottom: 1px solid #DEB77C;
+	padding: 8px 5%;	
+	display: flex;
+	justify-content: center;
+}
+
+.Header > div {
+	display: flex;
+	width: 85%;
+	align-items: flex-end;
+	justify-content: space-between;	
+}

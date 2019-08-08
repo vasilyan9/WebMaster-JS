@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    user-select:none
+}
+
+.studio {
+    width: 85%;
+    text-align: justify;
+}

@@ -1,0 +1,50 @@
+.section h2 {
+    color: #F7951E;
+    margin-top: 5%;
+}
+
+.section span {
+    color: #F7951E;
+    font-weight: 900;
+    font-style: 16px;
+}
+
+.section a {
+    color: #FF3700;
+    font-weight: 900;
+    font-style: 16px;
+}
+
+.section p {
+    color: #666666;
+    font-style: 16px;
+}
+
+.section {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.main {
+    width: 85%;
+}
+
+.section  img {
+    width: 100%;
+}
+
+ul {
+    font-size: 0.8em;
+    color: #666666;
+    width: 70%;
+}
+
+.ulDiv {
+    display: flex;
+    justify-content: flex-end;
+}

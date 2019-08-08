@@ -1,0 +1,63 @@
+.GniHashvark {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.GniHashvark > img {
+    width: 100%;
+}
+
+.GniHashvark > div:first-of-type {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 85%;
+}
+
+.GniHashvark p {
+    color: #666666;
+    font-size: 18px;
+}
+
+.GniHashvark > div:last-of-type {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.GniHashvark > div:last-of-type > div {
+    width: 200px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px;
+    padding: 24px 8px;
+}
+
+.GniHashvark > div:last-of-type > div p {
+    text-align: center;
+    font-size: 15px;
+    margin: 15px;
+    height: 40%;
+}
+
+.GniHashvark > div:last-of-type > div:first-of-type, .GniHashvark > div:last-of-type > div:last-of-type {
+    background-color: #e5e5e5;
+}
+
+.GniHashvark > div:last-of-type > div a {
+    text-align: center;
+    padding: 8px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    background-color: #FFAC40;
+}
+
+.GniHashvark > div:last-of-type > div a:hover {
+    color: #666666;
+}
