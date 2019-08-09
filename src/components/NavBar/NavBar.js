@@ -4,15 +4,40 @@ import './navBar.css';
 
 const NavBar = () => {
     return (
-        <nav>
-             <ul>
-                <li><NavLink to="/glxavor" activeClassName="activ">Գլխավոր</NavLink></li>
-                <li><NavLink to="/carayutyunner" activeClassName="activ">Ծառայություններ</NavLink></li>
-                <li><NavLink to="/gni_hashark" activeClassName="activ">Գնի հաշվարկ</NavLink></li>
-                <li><NavLink to="/mer_masin" activeClassName="activ">Մեր Մասին</NavLink></li>
-                <li><NavLink to="/kap" activeClassName="activ">Կապ</NavLink></li>
-             </ul>
-        </nav>
+        <div>
+            <nav className="NavMax">
+                <ul>
+                    <li><NavLink to="/glxavor" activeClassName="activ">Գլխավոր</NavLink></li>
+                    <li><NavLink to="/carayutyunner" activeClassName="activ">Ծառայություններ</NavLink></li>
+                    <li><NavLink to="/gni_hashark" activeClassName="activ">Գնի հաշվարկ</NavLink></li>
+                    <li><NavLink to="/mer_masin" activeClassName="activ">Մեր Մասին</NavLink></li>
+                    <li><NavLink to="/kap" activeClassName="activ">Կապ</NavLink></li>
+                </ul>
+            </nav>
+            
+
+            <div className="NavMinMain">
+                <input type="checkbox" name="menu" id="menu" />
+                    <label for="menu">
+                        <span>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </span>
+                        <nav className="NavMin">
+                            <ul>
+                                <li><NavLink to="/glxavor" activeClassName="activ">Գլխավոր</NavLink></li>
+                                <li><NavLink to="/carayutyunner" activeClassName="activ">Ծառայություններ</NavLink></li>
+                                <li><NavLink to="/gni_hashark" activeClassName="activ">Գնի հաշվարկ</NavLink></li>
+                                <li><NavLink to="/mer_masin" activeClassName="activ">Մեր Մասին</NavLink></li>
+                                <li><NavLink to="/kap" activeClassName="activ">Կապ</NavLink></li>
+                            </ul>
+                        </nav>
+                    </label>
+            </div>
+
+            
+        </div>
     )
 }
 

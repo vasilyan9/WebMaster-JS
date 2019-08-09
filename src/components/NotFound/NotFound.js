@@ -1,10 +1,11 @@
 import React from 'react'
 import './NotFound.css'
+import NotFoundImg  from './NotFound.gif'
 
 const NotFound = () => {
     return (
-        <div>
-            <h1> էջը չի գտնվել</h1>
+        <div className="NotFound">
+            <img alt="img" src={NotFoundImg} />
         </div>
     )
 }

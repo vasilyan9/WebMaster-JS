@@ -1,20 +1,20 @@
-nav > ul {
+.NavMax > ul {
   display: flex;
   justify-content: space-between;
-  list-style: none;
+  flex-wrap: wrap;
   width: 100%;
   margin-bottom: -1px;
 }
 
-nav > ul > li {
+.NavMax > ul > li {
   margin-left: 5px;
 }
 
-.activ, a:hover {
+nav > ul  .activ, nav > ul  a:hover {
     color: #DEB77C;
   }
 
-  a {
+nav a {
     text-decoration: none;
     font-weight: 900;
     font-size: 16px;
@@ -22,3 +22,84 @@ nav > ul > li {
     font:bold 16px Arial, Helvetica, sans-serif;
     text-transform: uppercase
   }
+
+#menu:checked + label > span > div {
+  background-color: #f9f9f9;
+}
+
+#menu:checked + label > span > div:first-of-type  {
+  transform: rotate(-45deg) translate(40px, 6px);
+  width: 15px;
+}
+
+#menu:checked + label > span > div:nth-of-type(2)  {
+  opacity: 0;
+}
+
+#menu:checked + label > span > div:last-of-type  {
+  transform: rotate(45deg) translate(-6.5px, -53px);
+  width: 15px;
+}
+
+.NavMin {
+  width: 0px;
+  height: 100%;
+  background-color: #29292C;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transition-duration: 0.5s;
+  padding: 0;
+  z-index: 959;
+}
+
+.NavMin  > ul {
+  width: 260px;
+  margin-top: 60px;
+  padding: 0;
+}
+
+#menu:checked + label > .NavMin  {
+  width: 260px;
+  display: block;
+}
+
+.NavMin  > ul > li > a {
+  display: inline-block;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 10px 35px;
+  transition-duration: 0.5s;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.NavMin  > ul > li > a > i {
+  margin-right: 6px;
+}
+
+.NavMin  > ul > li > a:hover {
+    color: #F5921F;
+    background-color: #383838
+}
+
+.NavMinMain label > span > div {
+	width: 30px;
+	height: 3px;
+	background-color: #F5921F;
+	margin: 6px 0;
+  transition-duration: 0.5s;
+}
+
+.NavMinMain  > input {
+	display: none;
+}
+
+.NavMinMain  > label > span {
+	cursor: pointer;
+}
+
+.NavMinMain {
+  display: none;
+}

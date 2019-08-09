@@ -37,7 +37,7 @@ const Glxavor = () => {
                 </div>
 
                 <div>
-                    <Link><img alt="img" src={Icon_3}/></Link>
+                    <Link to="/carayutyunner"><img alt="img" src={Icon_3}/></Link>
                     <h3>ԳՐԱՖԻԿԱԿԱՆ ՁԵՎԱՎՈՐՈՒՄ</h3>
                     <span>ԳՐԱՖԻԿԱԿԱՆ ՁԵՎԱՎՈՐՈՒՄ </span>
                     <hr />

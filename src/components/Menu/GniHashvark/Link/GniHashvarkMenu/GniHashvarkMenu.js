@@ -6,7 +6,8 @@ import GniHashvarkMenuItemImg3 from "./GniHashvarkMenuItemImg3.png"
 import GniHashvarkMenuItemImg4 from "./GniHashvarkMenuItemImg4.png"
 import {NavLink} from 'react-router-dom';
 
-const GniHashvarkMenu = () => {
+const GniHashvarkMenu = (props) => {
+    const {sumValue} = props
     return (
         <div className="GniHashvarkMenuSection">
             <NavLink to="/gni_hashark/web_kayq" activeClassName="GniHashvarkMenuItemActive">
@@ -64,14 +65,6 @@ const GniHashvarkMenu = () => {
                     </div>
                 </div>
             </NavLink>
-            
-            <NavLink to="/gni_hashark/paymanagrer" activeClassName="GniHashvarkMenuItemActive">
-                <div className="GniHashvarkMenuItem GniHashvarkMenuItem_1">
-                    <span>
-                        Պայմանագրեր
-                    </span>
-                </div>
-            </NavLink>
 
                 <div className="GniHashvarkMenuItem GniHashvarkMenuItem_1">
                     <span>
@@ -79,7 +72,7 @@ const GniHashvarkMenu = () => {
                     </span>
 
                     <span>
-                        <input type="text" disabled="false" value="0 դրամ" />
+                        <input type="text" disabled="false" value={sumValue + ` դրամ`} />
                     </span>
                 </div>
         </div>

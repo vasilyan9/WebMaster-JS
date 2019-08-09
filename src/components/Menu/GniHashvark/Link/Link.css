@@ -3,14 +3,134 @@
     display: flex;
     justify-content: center;
     padding: 24px 0;
-    height: 10000px;
+    margin-bottom: 10px;
 }
 
 .GniHashvarkSection h2 {
-    margin: 0;
+    margin: 25px 0;
+    padding: 0;
+    font-size: 2em;
+    color: #F9A12E;
+    font-weight: 100;
+}
+
+.GniHashvarkSection > div {
+    width: 85%;
+}
+
+.GniHashvarkSection h3 {
+    color: #713743;
+    font-size: 1.1em;
+    font-weight: 100;
+    margin: 10px 0;
     padding: 0;
 }
 
-.GniHashvarkMain {
-    width: 85%;
+.Form label {
+    padding: 5px;
+    color: #666666;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.GniHashvarkSection strong {
+    color: #F9A12E;
+    font-size: 1.2em;
+}
+
+.GniHashvarkSection label input[type="text"] {
+    font-size: 1em;
+    height: 30px;
+    width: 100%;
+    border: 1px solid #FACF9B;
+    color: #666666;
+    padding: 3px; 
+    margin-top: 5px;
+}
+
+.GniHashvarkSection textarea {
+    width: 100%;
+    font-size: 1em;
+    color: #666666;
+    border: 1px solid #FACF9B;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.GniHashvarkSection  label > span {
+    color: #666666;
+}
+
+.GniHashvarkSection  label > span > b {
+    margin-left: 5px;
+}
+
+.GniHashvarkSection  label > span a {
+    color: #F9A12E;
+ }
+
+ .GniHashvarkSection  label > span a:hover {
+    color: #666666;
+ }
+
+.Form > span {
+    color: #666666;
+    font-weight: 900;
+ } 
+ 
+.Form > div > button {
+    width: 145px;
+    background-color: #ffac40;
+    color: #ffffff;
+    padding: 8px;
+    display: block;
+    text-align: center;
+    border: 2px solid #ffac40;
+    cursor: pointer;
+    margin-top: 20px;
+ }
+
+ .Form > div > button:hover {
+    background-color: #f0f0f0;
+    color: #ffac40;
+ }
+
+ .Form > div > button:disabled {
+    background-color: #FACF9B;
+    color: #ffffff;
+    cursor: not-allowed;  
+ }
+
+ .divContent {
+    background-color: #FFFFFF;
+    padding: 0 4%;
+    border: 2px solid #E1E1E1;
+    margin-bottom: 15px;
+    margin-top: 20px;
+ }
+
+ .divContent > div {
+    display: flex;
+}
+
+.divContent > div > div{
+    display: grid;
+    padding: 5px;
+}
+
+.divContent > div > div > label {
+    padding: 3px;
+}
+
+.divForm input, .divForm{
+ margin-bottom: 15px;
+}
+
+.divForm span {
+    color: #666666;
+}
+
+.divForm input[type="checkbox"] , .divForm input[type="radio"] {
+    margin-left: 15px;
 }
