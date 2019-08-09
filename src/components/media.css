@@ -1,4 +1,5 @@
 @media screen and (max-width: 900px){
     .NavMax { display: none; }
     .NavMinMain { display: block; }
+    .HeaderSection { position: sticky; top: 0; }
 } 

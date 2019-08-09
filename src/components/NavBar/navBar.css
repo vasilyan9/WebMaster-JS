@@ -50,7 +50,6 @@ nav a {
   bottom: 0;
   transition-duration: 0.5s;
   padding: 0;
-  z-index: 959;
 }
 
 .NavMin  > ul {
@@ -97,8 +96,18 @@ nav a {
 }
 
 .NavMinMain  > label > span {
-	cursor: pointer;
+  cursor: pointer;
+  z-index: 999;
+  position: fixed;
+  top: 40px;
+  right: 40px;
 }
+
+/* #menu:checked  > label > span  {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+} */
 
 .NavMinMain {
   display: none;

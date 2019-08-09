@@ -18,12 +18,7 @@ const NavBar = () => {
 
             <div className="NavMinMain">
                 <input type="checkbox" name="menu" id="menu" />
-                    <label for="menu">
-                        <span>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </span>
+                    <label htmlFor="menu">
                         <nav className="NavMin">
                             <ul>
                                 <li><NavLink to="/glxavor" activeClassName="activ">Գլխավոր</NavLink></li>
@@ -33,6 +28,12 @@ const NavBar = () => {
                                 <li><NavLink to="/kap" activeClassName="activ">Կապ</NavLink></li>
                             </ul>
                         </nav>
+                        
+                        <span>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </span>
                     </label>
             </div>
 

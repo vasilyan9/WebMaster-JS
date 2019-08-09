@@ -67,7 +67,7 @@ const Carayutyunner = () => {
 
                 <div>
                     <div>
-                        <Link>
+                        <Link to="/carayutyunner/">
                             <img alt="img" src={carayutyunner3} />
                         </Link>
                     </div>
