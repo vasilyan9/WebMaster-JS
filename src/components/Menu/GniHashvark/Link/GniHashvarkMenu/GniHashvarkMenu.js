@@ -72,7 +72,7 @@ const GniHashvarkMenu = (props) => {
                     </span>
 
                     <span>
-                        <input type="text" disabled="false" value={sumValue + ` դրամ`} />
+                        {sumValue + ` դրամ`}
                     </span>
                 </div>
         </div>

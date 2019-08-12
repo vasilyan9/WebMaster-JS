@@ -134,3 +134,29 @@
 .divForm input[type="checkbox"] , .divForm input[type="radio"] {
     margin-left: 15px;
 }
+
+.divForm > div > div  {
+    display: flex;
+    flex-direction: column;
+}
+
+.divSelect select {
+    width: 240px;
+    font-size: 0.7em;
+    padding: 3px;
+    border: 2px solid #E1E1E1;
+    display: block
+}
+
+.divSelect div span a {
+    color: #ffac40;
+}
+
+.divSelect div {
+    margin-bottom: 20px;
+ }
+
+ .divSelect div span {
+    color: #666;
+    font-size: 0.7em;
+}
